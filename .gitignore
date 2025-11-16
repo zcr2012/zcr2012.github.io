@@ -1,0 +1,62 @@
+# 忽略测试文件
+test_*.js
+debug_*.js
+
+# 忽略日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# 忽略临时文件
+*.tmp
+*.temp
+.DS_Store
+Thumbs.db
+
+# 忽略编辑器配置
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 忽略操作系统文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# 忽略备份文件
+*.bak
+*.backup
+*.orig
+
+# 忽略依赖（如果有）
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 忽略构建输出（如果有）
+dist/
+build/
+*.min.js
+*.min.css
+
+# 忽略环境配置文件
+.env
+.env.local
+.env.*.local
+
+# 忽略IDE配置
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 忽略截图和文档（如果需要）
+# screenshots/
+# docs/
